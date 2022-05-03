@@ -1,0 +1,467 @@
+/* || Base */
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  background: #0a192f;
+}
+
+html {
+  font-family: 'Nunito Sans', 'JetBrains Mono', 'Sora', sans-serif, monospace;
+  font-size: 62.5%;
+}
+
+a {
+  color: #ccd6f6;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: rgb(94, 241, 207);
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #ccd6f6;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  border-bottom: .1rem solid #ccd6f6;
+  padding-bottom: 1.25rem;
+  color: rgb(94, 241, 207);
+}
+
+p {
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #8892b0;
+}
+
+/* footer {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+} */
+/* || Layout */
+
+.layout-container {
+  width: 100%;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.layout-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.layout-photoAboutMe {
+  display: flex;
+  gap: 10rem;
+  padding-top: 5rem;
+}
+
+.layout-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.modules-skillsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8rem 0rem;
+}
+
+.layout-articleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.layout-individualProjectContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20rem;
+  padding: 5rem 0rem;
+}
+
+.layout-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* || Modules */
+
+.modules-logo {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.modules-menuContainer {
+  display: flex;
+  align-items: center;
+}
+
+.modules-menuList {
+  display: flex;
+  gap: 2.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+.modules-socials {
+  display: flex;
+  gap: 2.5rem;
+  margin-left: 7rem;
+  font-size: 1.8rem;
+  align-items: center;
+}
+
+.modules-h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.modules-personalTitle {
+  color: #ccd6f6;
+}
+
+.modules-personalTitleEngineer {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 200;
+}
+
+.modules-personalLocation {
+  color: #8892b0;
+}
+
+.modules-aboutMeTitle {
+  text-align: end;
+}
+
+.modules-photoOfMe {
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #ccd6f6, rgb(94, 241, 207));
+  width: 30rem;
+}
+
+.modules-aboutMeDescription {
+  margin-top: 7.5rem;
+  text-align: justify;
+}
+
+.modules-pMargin {
+  margin: 0rem 0rem 1.5rem;
+}
+
+.modules-h2Center {
+  text-align: center;
+}
+
+.modules-individualSkills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modules-lightBlue {
+  color: #8892b0;
+}
+
+.modules-aquamarine {
+  color: rgb(94, 241, 207)
+}
+
+.modules-email {
+  font-size: 2rem;
+}
+
+.modules-backgroundGradient {
+  background-image: linear-gradient(to bottom right, #0575e6, #021b79);
+  padding: 1.5rem;
+}
+
+.modules-projectLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  gap: 5rem;
+  padding-top: 2rem;
+}
+
+.modules-projectLinks-isHovered:hover {
+  color: rgb(94, 241, 207);
+}
+
+.modules-projectLinksGithub {
+  color: white;
+  background: linear-gradient(to bottom right, #bdc3c7, #2c3e50);
+  padding: .5rem 1rem;
+  border-radius: 8%;
+  text-align: center;
+}
+
+.modules-projectDescription {
+  max-width: 40%;
+}
+
+.modules-projectText {
+  padding: 1.5rem 0rem;
+  font-size: 1.75rem;
+}
+
+.modules-projectSkillsContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.modules-projectSkills {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(to bottom right, #0575e6, #021b79);
+  padding: .5rem 1rem;
+  border-radius: 8%;
+  text-align: center;
+}
+
+.fa-size {
+  font-size: 8rem;
+}
+
+/* || State */
+
+
+/* || Theme */
+
+
+/* Media Queries */
+
+@media screen and (min-width:1501px) {
+  .layout-container {
+    max-width: 1536px;
+  }
+
+  .layout-mobileIndividualProjectContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1500px) {
+  .layout-container {
+    max-width: 1200px;
+  }
+  
+  .layout-mobileIndividualProjectContainer {
+    display: none;
+  }
+  
+  .modules-aboutMeDescription {
+    margin-top: 6rem;
+  }
+
+  p {
+    font-size: 1.75rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width:1195px) {
+  .layout-container {
+    max-width: 1024px;
+  }
+
+  .modules-aboutMeDescription {
+    margin-top: 4rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1003px){
+  .layout-container {
+    max-width: 768px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .layout-nav {
+    flex-direction: column;
+  }
+
+  .layout-photoAboutMe {
+    flex-direction: column;
+    gap: 0rem;
+    align-items: center;
+  }
+
+  .layout-mobileIndividualProjectContainer {
+    display: inherit;
+  }
+
+  .layout-individualProjectContainer {
+    flex-direction: column;
+    gap: 0rem;
+    align-items: center;
+  }
+
+  .layout-hideThisIndividualProjectContainer {
+    display: none;
+  }
+
+  .layout-footer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .state-hideSocials {
+    display: none;
+  }
+
+  .modules-logo {
+    padding-bottom: 1.5rem;
+  }
+
+  .modules-aboutMeTitle {
+    text-align: center;
+  }
+
+  .modules-socials {
+    margin-left: 0rem;
+  }
+
+  .modules-skillsContainer {
+    justify-content: space-around;
+  }
+
+  .modules-fzSmall {
+    font-size: 1.5rem;
+  }
+
+  .modules-projectLinks {
+    padding-bottom: 5rem;
+  }
+
+  .modules-projectDescription {
+    max-width: 50%;
+  }
+
+  .modules-photoContainer {
+    width: 30rem;
+  }
+
+  .fa-size {
+    font-size: 6em;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2.75rem;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2.25rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .layout-container {
+    max-width: 640px;
+  }
+
+  .layout-hideThisIndividualProjectContainer {
+    display: none;
+  }
+
+  .modules-projectDescription {
+    max-width: 60%;
+  }
+
+  .modules-photoContainer {
+    width: 27.5rem;
+  }
+
+  .fa-size {
+    font-size: 5em;
+  }
+
+  p {
+    font-size: 1.45rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .layout-container {
+    max-width: 480px;
+  }
+
+  .modules-projectDescription {
+    max-width: 85%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
