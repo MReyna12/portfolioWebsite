@@ -31,7 +31,7 @@
 
 ### What I Learned
 
-I learned about media queries and using CSS to change the order of html elements.
+Media queries and using CSS to change the order of html elements.
 
 ### Optimizations
 
