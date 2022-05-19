@@ -20,7 +20,7 @@
 
 ### Links
 
-- [Portfolio Here](https://mreyna12.github.io/nbaStats/)
+- [Portfolio Here][(https://mreyna12.github.io/nbaStats/)](https://mreyna12.github.io/portfolioWebsite/)
 
 ## My Process
 
